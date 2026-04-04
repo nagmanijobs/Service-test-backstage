@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Service-test-backstage"
+  description: .NET 8 Hello World service deployed on Amazon ECS via GitHub Actions CI/CD
+  annotations:
+    github.com/project-slug: nagmanijobs/Service-test-backstage
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
